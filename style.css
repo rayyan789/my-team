@@ -107,18 +107,41 @@
 
 /* Demo starts here */
 
+.blue1 {
+    background-color: white;
+    /* background-color: #4285F4; */
+    border: 3px solid;
+    border-color: #4285F4;
+    color: #4285F4;
+    text-align: left;
+    padding-left: 100px;
+}
+.red1 {
+    background-color: #DB4437;
+}
+
+.yellow1 {
+    background-color: #F4B400;
+}
+
+.green1 {
+    background-color: #0F9D58;
+}
+
 .hContainer {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 300px;
+    color: white;
+    font-size: 20px;
 }
 
 .csty {
     padding: 10px;
-    font-size: 10px;
     color: white;
+    text-align: center;
 }
 
 /* Demo ends here */
